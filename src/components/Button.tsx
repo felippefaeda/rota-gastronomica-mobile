@@ -12,15 +12,18 @@ import fonts from '../styles/fonts';
 
 interface ButtonProps extends TouchableOpacityProps {
     title: string
+    route: any
 }
 
-export function Button({ title, ...rest }: ButtonProps) {
+export function Button({ title, route, ...rest }: ButtonProps) {
     return (
         <View style={styles.sombra}>
 
             <TouchableOpacity
                 style={styles.container}
                 activeOpacity={0.6}
+                onPress={route}
+
             >
                 <Text style={styles.title}>
                     {title}
@@ -32,6 +35,7 @@ export function Button({ title, ...rest }: ButtonProps) {
             </TouchableOpacity>
         </View>
     )
+
 };
 
 const styles = StyleSheet.create({

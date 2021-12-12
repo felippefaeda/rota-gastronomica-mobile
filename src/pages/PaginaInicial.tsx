@@ -1,7 +1,3 @@
-/* Não achei os mesmos ícones do protótipo ainda, coloquei dois de diferentes modelos pra ver
-como eles vão ficar na página. E as imagens e os códigos das cores que usei são fictícios.
-*/
-
 import React from 'react';
 import {
     StyleSheet,
@@ -16,6 +12,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Button } from '../components/Button';
 import { FontAwesome } from '@expo/vector-icons';
 import { Linking, ToastAndroid } from 'react-native';
+import { useNavigation } from "@react-navigation/core";
 
 import logo from '../assets/logo.png';
 import imagemPrincipal from '../assets/imagemPrincipal.png';
@@ -24,6 +21,12 @@ import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 
 export function PaginaInicial() {
+
+    const navigation = useNavigation();
+
+    function handleStart() {
+        navigation.navigate('ListaCidades');
+    }
 
     const openUrl = async (url: string) => {
         if (await Linking.canOpenURL(url)) {
@@ -63,10 +66,12 @@ export function PaginaInicial() {
 
                     <Button
                         title="CIDADES PARTICIPANTES"
+                        route={handleStart}
                     />
 
                     <Button
                         title="HISTÓRICO DE PONTOS"
+                        route={handleStart}
                     />
 
                     <View style={styles.icons}>
