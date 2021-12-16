@@ -20,30 +20,31 @@ import imagemTres from '../assets/imagem3.png'
 import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 import api from "../services/api";
+import config from '../../config';
+import jsonCidade from '../services/server.json';
 
 import { ButtonList } from "../components/ButtonList";
 
 interface CidadesProps {
     id: string;
     nome: string;
-    descricao: string;
-    image: string;
-    link_maps: string;
-    lugares_credenciados: [string];
 }
 
 export function ListaCidades() {
 
-    const [cidades, setCidades] = useState<CidadesProps[]>([]);
+    const [cidades, setCidades] = useState<CidadesProps[]>([]);    
 
     useEffect(() => {
-        async function fetchCidades() {
-            const { data } = await api
-                .get('cidades?_sort=name&_order=asc');
-            setCidades(data);
+        async function fetchCidades() {   
+            if (config.SEARCH_TYPE == 'API'){
+                const { data } = await api.get('cidades?_sort=name&_order=asc');
+                setCidades(data);
+            } else {
+                setCidades(jsonCidade.cidades);
+            }
         }
 
-        fetchCidades();
+        fetchCidades();        
     }, [])
 
     return (

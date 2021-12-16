@@ -1,92 +1,48 @@
 {
     "cidades": [
         {
-            "id": "0",
-            "nome": "ABRE CAMPO",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
-        },
-        {
             "id": "1",
-            "nome": "JEQUERI",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "ABRE CAMPO"
         },
         {
             "id": "2",
-            "nome": "MATIPÓ",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "JEQUERI"
         },
         {
             "id": "3",
-            "nome": "RAUL SOARES",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "MATIPÓ"
         },
         {
             "id": "4",
-            "nome": "PEDRA DO ANTA",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "RAUL SOARES"
         },
         {
             "id": "5",
-            "nome": "PONTE NOVA",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "PEDRA DO ANTA"
         },
         {
             "id": "6",
-            "nome": "URUCÂNIA",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "PONTE NOVA"
         },
         {
             "id": "7",
-            "nome": "OURO PRETO",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "URUCÂNIA"
         },
         {
             "id": "8",
-            "nome": "RIO CASCA",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "OURO PRETO"
         },
         {
             "id": "9",
-            "nome": "SEM PEIXE",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "RIO CASCA"
         },
         {
             "id": "10",
-            "nome": "RIO DOCE",
-            "descricao": "",
-            "image": "",
-            "link_maps": "",
-            "lugares_credenciados": []
+            "nome": "SEM PEIXE"
+        },
+        {
+            "id": "11",
+            "nome": "RIO DOCE"
         }
     ],
     "lugares_credenciados": [
