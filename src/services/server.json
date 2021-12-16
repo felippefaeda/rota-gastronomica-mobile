@@ -1,0 +1,202 @@
+{
+    "cidades": [
+        {
+            "id": "0",
+            "nome": "ABRE CAMPO",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "1",
+            "nome": "JEQUERI",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "2",
+            "nome": "MATIPÓ",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "3",
+            "nome": "RAUL SOARES",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "4",
+            "nome": "PEDRA DO ANTA",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "5",
+            "nome": "PONTE NOVA",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "6",
+            "nome": "URUCÂNIA",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "7",
+            "nome": "OURO PRETO",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "8",
+            "nome": "RIO CASCA",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "9",
+            "nome": "SEM PEIXE",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        },
+        {
+            "id": "10",
+            "nome": "RIO DOCE",
+            "descricao": "",
+            "image": "",
+            "link_maps": "",
+            "lugares_credenciados": []
+        }
+    ],
+    "lugares_credenciados": [
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        },
+        {
+            "id": "",
+            "nome": "",
+            "image": "",
+            "descricao": "",
+            "endereco": "",
+            "horario_funcionamento": "",
+            "QRcode": ""
+        }
+    ]
+}
