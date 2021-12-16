@@ -13,10 +13,12 @@ import {
     ToastAndroid
 } from 'react-native';
 
+import { Feather as Icon } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Button } from '../components/Button';
-import { FontAwesome } from '@expo/vector-icons';
+
+import { useNavigation } from '@react-navigation/core';
 
 import logo from '../assets/logo.png';
 import imagemPrincipal from '../assets/imagemPrincipal.png';
@@ -25,6 +27,12 @@ import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 
 export function PaginaInicial() {
+
+    const navigation = useNavigation();
+
+    function handleStart() {
+        navigation.navigate('ListaCidades');
+    }
 
     const openUrl = async (url: string) => {
         if (await Linking.canOpenURL(url)) {
@@ -63,17 +71,24 @@ export function PaginaInicial() {
                     </Text>
 
                     <View style={styles.buttons}>
-                        <Button title="CIDADES PARTICIPANTES" />
-                        <Button title="HISTÓRICO DE PONTOS" />
-                    </View>                    
+                        <Button
+                            title="CIDADES PARTICIPANTES"
+                            route={handleStart}
+                        />
+
+                        <Button
+                            title="HISTÓRICO DE PONTOS"
+                            route={handleStart}
+                        />
+                    </View>                  
 
                     <View style={styles.icons}>
-                        <FontAwesome
+                        <Icon
                             name="facebook"
                             onPress={() => openUrl('https://m.facebook.com/MontanhaseFe/?__tn__=%2Cg')}
                             style={styles.buttonIcon}
                         />
-                        <FontAwesome
+                        <Icon
                             name="instagram"
                             onPress={() => openUrl('https://instagram.com/circuitoturisticomontanhasefe?utm_medium=copy_link')}
                             style={styles.buttonIcon}
