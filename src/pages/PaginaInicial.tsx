@@ -1,7 +1,3 @@
-/* Não achei os mesmos ícones do protótipo ainda, coloquei dois de diferentes modelos pra ver
-como eles vão ficar na página. E as imagens e os códigos das cores que usei são fictícios.
-*/
-
 import React from 'react';
 import {
     StyleSheet,
