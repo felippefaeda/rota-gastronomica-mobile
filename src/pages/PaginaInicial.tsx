@@ -8,14 +8,15 @@ import {
     Text,
     Image,
     View,
-    Dimensions
+    Dimensions,
+    Linking,
+    ToastAndroid
 } from 'react-native';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Button } from '../components/Button';
 import { FontAwesome } from '@expo/vector-icons';
-import { Linking, ToastAndroid } from 'react-native';
 
 import logo from '../assets/logo.png';
 import imagemPrincipal from '../assets/imagemPrincipal.png';
@@ -40,6 +41,7 @@ export function PaginaInicial() {
             <Image
                 source={logo}
                 style={styles.logo}
+                resizeMode='contain'
             />
 
             <Image
@@ -53,21 +55,17 @@ export function PaginaInicial() {
 
                 <View style={styles.content}>
                     <Text style={styles.text}>
-                        A experiência da{'\n'}
-                        Rota Gastronômica Montanhas e Fé{'\n'}
-                        permite a interação e participação{'\n'}
-                        com os produtores locais. Uma experiência {'\n'}
-                        completa e histórica sobre a gastronomia{'\n'}
-                        do interior de Minas Gerais.
+                        A experiência da Rota Gastronômica {'\n'}
+                        Montanhas e Fé permite a interação{'\n'}
+                        e participação com os produtores locais.{'\n'}
+                        Uma experiência completa e histórica sobre {'\n'}
+                        a gastronomia do interior de Minas Gerais.                       
                     </Text>
 
-                    <Button
-                        title="CIDADES PARTICIPANTES"
-                    />
-
-                    <Button
-                        title="HISTÓRICO DE PONTOS"
-                    />
+                    <View style={styles.buttons}>
+                        <Button title="CIDADES PARTICIPANTES" />
+                        <Button title="HISTÓRICO DE PONTOS" />
+                    </View>                    
 
                     <View style={styles.icons}>
                         <FontAwesome
@@ -96,36 +94,42 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     logo: {
-        height: Dimensions.get('window').width * 0.45,
+        flex: 1,
+        height: Dimensions.get('window').width * 0.40,
         width: '90%',
         marginBottom: 15
     },
     image: {
+        flex: 1,
         width: '100%',
-        height: Dimensions.get('window').width * 0.48,
+        height: Dimensions.get('window').width * 0.40,
         borderTopLeftRadius: 25,
         borderTopRightRadius: 25
     },
     linearGradient: {
-        flex: 1,
-        width: '100%'
+        flex: 2,
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     content: {
         justifyContent: 'center',
-        alignItems: 'center',
-        padding: 10
+        alignItems: 'center'
     },
     text: {
+        flex: 1,
         textAlign: 'center',
         fontSize: 16,
         fontFamily: fonts.text,
         color: colors.white,
         lineHeight: 23,
-        marginBottom: 10
+        marginVertical: 5
+    },
+    buttons: {
+        flex: 1
     },
     icons: {
         flex: 1,
-        margin: 20,
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row'
@@ -133,6 +137,6 @@ const styles = StyleSheet.create({
     buttonIcon: {
         fontSize: 20,
         color: colors.white,
-        paddingHorizontal: 10
+        padding: 15
     }
 });

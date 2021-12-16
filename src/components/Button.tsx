@@ -41,11 +41,11 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: colors.brown,
         height: 50,
-        width: 155,
+        width: 200,
         borderRadius: 10,
         justifyContent: 'center',
         alignItems: 'center',
-        margin: 5
+        margin: 2
     },
     title: {
         fontSize: 11,
@@ -53,7 +53,6 @@ const styles = StyleSheet.create({
         fontFamily: fonts.text,
         lineHeight: 12,
         marginTop: 5
-
     },
     subtitle: {
         fontSize: 20,
