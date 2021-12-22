@@ -25,6 +25,8 @@ import jsonCidade from '../services/server.json';
 
 import { ButtonList } from "../components/ButtonList";
 
+import { useNavigation } from '@react-navigation/core';
+
 interface CidadesProps {
     id: string;
     nome: string;
@@ -32,6 +34,7 @@ interface CidadesProps {
 
 export function ListaCidades() {
 
+    const navigation = useNavigation();
     const [cidades, setCidades] = useState<CidadesProps[]>([]);    
 
     useEffect(() => {
@@ -46,6 +49,10 @@ export function ListaCidades() {
 
         fetchCidades();        
     }, [])
+
+    function handleCidadeSelect(cidade: CidadesProps){
+        navigation.navigate('InfoCidades', { cidade });
+    }
 
     return (
         <SafeAreaView style={styles.container}>
@@ -86,8 +93,10 @@ export function ListaCidades() {
                     data={cidades}
                     renderItem={({ item }) => (
                         <ButtonList data={item}
+                        onPress={ () => handleCidadeSelect(item)}
                         />
                     )}
+                    
                     showsVerticalScrollIndicator={false}
                 />
             </View>

@@ -47,112 +47,100 @@
     ],
     "lugares_credenciados": [
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "1",
+            "nome": "Restaurante Grillos",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/1.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/fried_rice_ramen_food_asian_food_dish_bowl_icon_208009.png",
+            "endereco": "Rua Padre Antônio Pinto, 07 - Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "4"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "2",
+            "nome": "Cafeteria da Grazi",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/boba_drink_bubble_tea_tea_cup_glass_icon_208001.png",
+            "endereco": "Rua Dona Francisca, 81 - Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "4"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "3",
+            "nome": "Pizzaria Italiana",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/pizza_food_fast_food_italian_food_icon_208020.png",
+            "endereco": "Rua Pérola, 34 - Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "Rua Dona Francisca, 72 – Centro",
+            "cidade": [
+                "7"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "4",
+            "nome": "Bar Dois Irmãos",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/4.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/orange_juice_drink_glass_fruit_icon_208029.png",
+            "endereco": "Rua Professor Manoel Rufino, 47 - Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "7"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "5",
+            "nome": "Casarão Beer",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/nachos_mexican_food_food_appetizer_snack_icon_208010.png",
+            "endereco": "Praça Senador Antônio Martins, s/n – Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "7"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "6",
+            "nome": "K'banas Lanches Bar",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/sandwich_bread_bikini_snack_food_icon_208027.png",
+            "endereco": "Praça Senador Antônio Martins, s/n – Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "2"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "7",
+            "nome": "Sorveteria Iluda",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/ice_cream_sweet_food_summer_icon_208021.png",
+            "endereco": "Avenida Santana, 12 - Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "2"
+              ]
         },
         {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
-        },
-        {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
-        },
-        {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
-        },
-        {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
-        },
-        {
-            "id": "",
-            "nome": "",
-            "image": "",
-            "descricao": "",
-            "endereco": "",
-            "horario_funcionamento": "",
-            "QRcode": ""
+            "id": "8",
+            "nome": "Moicana - Ponto do Pastel",
+            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/8.svg",
+            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/soda_drink_sparkles_can_bottle_icon_208015.png",
+            "endereco": "Praça Tenente Mol, s/n – Centro",
+            "horario_funcionamento": "Aberto de 09 às 23 horas",
+            "QRcode": "",
+            "cidade": [
+                "2"
+              ]
         }
     ]
 }
