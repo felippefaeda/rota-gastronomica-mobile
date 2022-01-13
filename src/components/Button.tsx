@@ -12,36 +12,26 @@ import fonts from '../styles/fonts';
 
 interface ButtonProps extends TouchableOpacityProps {
     title: string
-    route: any
 }
 
-export function Button({ title, route, ...rest }: ButtonProps) {
+export function Button({ title, ...rest }: ButtonProps) {
     return (
-        <View style={styles.sombra}>
+        <TouchableOpacity
+            style={styles.container}
+            {...rest}
+        >
+            <Text style={styles.title}>
+                {title}
+            </Text>
 
-            <TouchableOpacity
-                style={styles.container}
-                activeOpacity={0.6}
-                onPress={route}
-
-            >
-                <Text style={styles.title}>
-                    {title}
-                </Text>
-
-                <Text style={styles.subtitle}>
-                    CLIQUE AQUI
-                </Text>
-            </TouchableOpacity>
-        </View>
+            <Text style={styles.subtitle}>
+                CLIQUE AQUI
+            </Text>
+        </TouchableOpacity>
     )
-
 };
 
 const styles = StyleSheet.create({
-    sombra: {
-        //estilização da sombra do botão
-    },
     container: {
         backgroundColor: colors.brown,
         height: 50,
