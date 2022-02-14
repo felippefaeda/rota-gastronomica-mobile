@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { PaginaInicial } from '../pages/PaginaInicial';
 import { ListaCidades } from '../pages/ListaCidades';
 import { InfoCidades } from '../pages/InfoCidades';
+import { HistoricoPontos } from '../pages/HistoricoPontos';
 
 import colors from '../styles/colors';
 
@@ -30,8 +31,13 @@ const AppRoutes: React.FC = () => (
         />
 
         <stackRoutes.Screen
-        name="InfoCidades"
-        component={InfoCidades}
+            name="InfoCidades"
+            component={InfoCidades}
+        />
+
+        <stackRoutes.Screen
+            name="HistoricoPontos"
+            component={HistoricoPontos}
         />
 
     </stackRoutes.Navigator>

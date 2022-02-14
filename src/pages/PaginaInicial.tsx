@@ -26,8 +26,11 @@ export function PaginaInicial() {
 
     const navigation = useNavigation();
 
-    function handleStart() {
+    function handleStartCidades() {
         navigation.navigate('ListaCidades');
+    }
+    function handleStartPontos() {
+        navigation.navigate('HistoricoPontos');
     }
 
     const openUrl = async (url: string) => {
@@ -69,12 +72,12 @@ export function PaginaInicial() {
                     <View style={styles.buttons}>
                         <Button
                             title="CIDADES PARTICIPANTES"
-                            route={handleStart}
+                            onPress={handleStartCidades}
                         />
 
                         <Button
                             title="HISTÓRICO DE PONTOS"
-                            route={handleStart}
+                            onPress={handleStartPontos}
                         />
                     </View>                  
 
