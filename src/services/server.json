@@ -1,146 +1,131 @@
 {
     "cidades": [
         {
-            "id": "1",
-            "nome": "ABRE CAMPO"
+            "id": 1,
+            "nome": "ABRE CAMPO",
+            "uriImagem": "cidades/abrecampo/abrecampo.jpg",
+            "descricao": "Abre Campo é um município situado na Zona da Mata Mineira, estando a 216 KM da capital Belo Horizonte, e pertencente a Região Turística do Circuito Turístico Montanhas e Fé. Sua economia está baseada na cafeicultura e pecuária de corte e leite e crescendo na área da suinocultura. Abre Campo destaca-se pela produção de cachaças artesanais, que são produzidas em alambiques tradicionais na região, alguns com mais de 80 anos de tradição. As cachaças artesanais produzidas nestes alambiques são reconhecidas em âmbito nacional, sendo sua produção exportada para diferentes estados brasileiros."
         },
         {
-            "id": "2",
-            "nome": "JEQUERI"
+            "id": 2,
+            "nome": "DIOGO DE VASCONCELOS",
+            "uriImagem": "cidades/diogodevasconcelos/diogodevasconcelos.jpg",
+            "descricao": "Diogo de Vasconcelos se destaca por ser uma cidade tranquila e de um povo acolhedor. A cidade está na região da Estrada Real, e possui vários pontos turísticos, como a Igreja Matriz de São Domingos Gusmão, a Fazenda Laranjeiras, a Fazenda Dos Caldeirões, que serviu como refúgio do inconfidente Cláudio Manuel Da Costa, e várias construções das décadas de 40 e 50, que ainda são preservadas."
         },
         {
-            "id": "3",
-            "nome": "MATIPÓ"
+            "id": 3,
+            "nome": "JEQUERI",
+            "uriImagem": "cidades/jequeri/jequeri.jpg",
+            "descricao": "O município de Jequeri está situado na Zona da Mata mineira, a 220 km de Belo Horizonte. Sua economia é voltada na agricultura familiar, suinocultura, cafeicultura, pecuária e comercio local. Jequeri faz parte do Circuito Turístico Montanhas e Fé e da Rota Imperial, que passa pelos distritos de Grota e Piscamba, além da sede. A gastronomia é um destaque a parte, uma vez que Jequeri é conhecida como a terra da Cachaça, Linguiça e Queijo, comprovado no Festival Gastronômico. Célebre por seus inúmeros atrativos, Jequeri é terra de um povo hospitaleiro cheio de charme e encantos."
         },
         {
-            "id": "4",
-            "nome": "RAUL SOARES"
+            "id": 4,
+            "nome": "MATIPÓ",
+            "uriImagem": "cidades/matipo/matipo.jpg",
+            "descricao": "O município de Matipó possui diversas cachoeiras, sendo a mais utilizada pela população local e pelos turistas é a Cachoeira dos Lourenço. Matipó é cortada pela Estrada Imperial, novo empreendimento do Governo do Estado de Minas Gerais juntamente com o Estado do Espírito Santo, mais conhecido como Rota Imperial. A Serra do Bom Jesus conhecida como Serrinha é freqüentada tanto pelos habitantes locais quanto pelos turistas, tendo como pratica esportes radicais como vôo livre, trekking, além de uma vista panorâmica do município de encher os olhos. A principal rodovia de acesso à cidade é a Rodovia Osires Linhares Fraga, que liga a cidade à BR 262. O município de Matipó está localizado na região II da Zona da Mata do estado de Minas Gerais e pertence à microrregião homogênea Vertente Ocidental do Caparaó. O município situa-se na bacia do Rio Doce, tendo como principais elementos da hidrografia o Rio Matipó e o Ribeirão de Santa Margarida. Possui uma área de 277 km², sendo limitado ao norte pelo município de Caputira, ao sul pelos de Pedra Bonita e Santa Margarida, a leste pelo de Manhuaçu e a oeste por Abre Campo. O distrito de Padre Fialho localiza-se a 15 km da sede."
         },
         {
-            "id": "5",
-            "nome": "PEDRA DO ANTA"
+            "id": 5,
+            "nome": "PEDRA DO ANTA",
+            "uriImagem": "cidades/pedradoanta/pedradoanta.jpg",
+            "descricao": "O município de Pedra do Anta, possui grande potencial Turístico, entre eles se destacam o Turismo religioso em virtude, principalmente, pelo relevante valor histórico e representativo da religião na história do nosso município, dando grande ênfase às comemorações das festividades católicas, como a festa de São Sebastião, Corpus Christi, Novena de Natal e Jubileu do Bom Jesus. Vale ressaltar também, a riqueza arquitetônica da nossa Matriz. Entre os atrativos naturais destacamos a importância do Rio Casca e suas cascatas, dando destaque para a famosa “Ilha de Antônio Carneirinho” e “Areião de Zé Camilo”. Podemos ressaltar também nossa maravilhosa topografia que nos permite uma visão privilegiada tanto da Serra do Brigadeiro (onde se encontra o Pico do Boné) e as demais cadeias de montanhas que nos circundam."
         },
         {
-            "id": "6",
-            "nome": "PONTE NOVA"
+            "id": 6,
+            "nome": "PONTE NOVA",
+            "uriImagem": "cidades/pontenova/pontenova.jpg",
+            "descricao": "Ponte Nova esta situada na Zona da Mata mineira, a aproximadamente 180 km de Belo Horizonte. Quando se iniciou sua colonização, ela era habitada por índios puris e aimorés, e seu povoado foi se desenvolvendo em torno da capela e às margens do Rio Piranga. Em fevereiro de 2011 Ponte Nova começou a pertencer à Associação do Circuito Turístico Montanhas e Fé e integrante do Programa de Regionalização do Turismo do Estado de Minas Gerais, a cidade ainda faz parte da área de influência da Estrada Real e da Rota Imperial, a antiga Estrada São Pedro de Alcândra. O município apresenta uma paisagem com águas cristalinas, rios e cachoeiras que encantam os olhos de quem vê."
         },
         {
-            "id": "7",
-            "nome": "URUCÂNIA"
+            "id": 7,
+            "nome": "RAUL SOARES",
+            "uriImagem": "cidades/raulsoares/raulsoares.jpg",
+            "descricao": "Localizada na Zona da Mata mineira, a cidade de Raul Soares teve como primeiros habitantes os índios Boachás, que povoavam as ricas montanhas do córrego que herdou esse nome. O Pico do Boachá, que se destaca na paisagem, atualmente é uma das melhores rampas naturais para voo livre, com cerca de 700m de desnível, ampla área de pouso e excelentes térmicas, permitindo longos voos."
         },
         {
-            "id": "8",
-            "nome": "OURO PRETO"
+            "id": 8,
+            "nome": "RIO CASCA",
+            "uriImagem": "cidades/riocasca/riocasca.jpg",
+            "descricao": "Francisco Ferreira Maciel Laia apossou-se de vasta área no início do século XIX, onde se encontra a Fazenda Fidelidade. Em 1836 as terras foram vendidas para Angelo Vieira de Souza e foi em suas terras que surgiu o povoado de Conceição do Casca. Foi elevado a freguesia em 1858 com o nome de Nossa Senhora da Conceição da Casca, e em 1911 se tornou o município de Rio Casca. Os principais atrativos do destino são o Museu e Biblioteca Arca, a Cachoeira da Ponte Queimada, a Lagoa Grande e o Zoológico particular. O calendário de eventos de Rio Casca tem como destaque as Coroações Festivas realizadas no mês de maio e o carnaval, com blocos de rua, barracas, trios elétricos e palcos para shows. "
         },
         {
-            "id": "9",
-            "nome": "RIO CASCA"
+            "id": 9,
+            "nome": "RIO DOCE",
+            "uriImagem": "cidades/riodoce/riodoce.jpg",
+            "descricao": "Visitar a encantadora cidade de Rio Doce é mergulhar na tranquilidade e hospitalidade de um povo feliz. Cidade onde a vida cultural e esportiva é intensa que vai desde a a exibição de filmes no Centro Cultural a aulas gratuitas de música e aos grandes jogos do futebol profissional no belíssimo Estádio Municipal Caetano Cenachi Neto. Apresentando ainda um dos melhores carnavais da região com desfile de blocos, shows, alegria e segurança. Para aqueles de maior fôlego, uma boa pedida é fazer o Caminho São José por caminhos e trilhas que margeiam o rio do Carmo e Doce sendo possível desfrutar de lindas paisagens, fazendas antigas e muitas histórias."
+        },        
+        {
+            "id": 10,
+            "nome": "SANTO ANTÔNIO DO GRAMA",
+            "uriImagem": "cidades/santoantoniodograma/santoantoniodograma.jpg",
+            "descricao": "Cidade típica do interior mineiro, terra de gente simples e hospitaleira. Assim é Santo Antônio do Grama. Um lugar que há dois séculos encantou os antigos tropeiros que por lá passavam. A verde grama às margens dos cursos d'água no meio de uma exuberante e repousante paisagem natural, era um excelente local de descanso para as antigas tropas, que passavam por aqui há centenas de anos. Terra onde viveram personagens ilustres, como o Padre Antônio Ribeiro Pinto e que abriga mitos e lendas, como a Onça Tané e a Pedra do Oratório."
         },
         {
-            "id": "10",
-            "nome": "SEM PEIXE"
+            "id": 11,
+            "nome": "SÃO PEDRO DOS FERROS",
+            "uriImagem": "cidades/saopedrodosferros/saopedrodosferros.jpg",
+            "descricao": "Situado na Zona da Mata Mineira, próximo às cidades de Rio Casca e Raul Soares. São Pedro dos Ferros é conhecida na região por abrigar uma das melhores festas do interior de Minas, o Ferrense Ausente, festa tradicional realizada a mais de 30 anos reunindo pessoas de várias gerações e que trazem para comunidade um colorido especial. A cidade faz parte do Circuito Turístico Montanhas e Fé, tendo inúmeras lagoas na zona rural, oferecendo área para banho aos turistas. Possui também diversos bens tombados como Patrimônio Cultural do Município, destacando a Igreja do Sagrado Coração de Jesus, construída no Século XIX e que conserva as suas características originais."
         },
         {
-            "id": "11",
-            "nome": "RIO DOCE"
+            "id": 12,
+            "nome": "SEM PEIXE",
+            "uriImagem": "cidades/sempeixe/sempeixe.jpg",
+            "descricao": "Nome curioso do município da Zona da Mata é explicado de uma lenda que os índios nômades teriam chegado à região e foram pescar, não encontrando peixe suficiente, se mudaram usando a expressão “piracuera”, que quer dizer “aqui não tem peixes”. A Cidade começou a atuar como município em janeiro de 1997 e possui aproximadamente três mil habitantes. As matas planas de Sem Peixe são ideais para acampamentos e caminhadas. O relevo do local forma trilhas ecológicas, nas quais não é difícil encontrar cachoeiras, já que a cidade é margeada pelo Rio Doce, em grande extensão."
+        },
+        {
+            "id": 13,
+            "nome": "SERICITA",
+            "uriImagem": "cidades/sericita/sericita.jpg",
+            "descricao": "Sericita é município localizado na Zona da Mata mineira, pertence a região turística do Circuito Turístico Montanhas e Fé, atualmente com 7302 habitantes sendo estes chamados Sericitense. A economia da cidade baseia-se no café, sendo este a maior riqueza. O município fica na zona de amortecimento do Parque Estadual Serra do Brigadeiro. As cidades vizinhas são Jequeri, Pedra Bonita e Araponga. Um dos atrativos turísticos mais conhecidos do município é a cachoeira Porto do Cigano, popularmente conhecida como Cachoeira do Matipozinho, localizada na zona rural, próxima área urbana, no verão recebe um número considerado de banhistas que vão para se refrescar e apreciar as belezas das paisagens naturais."
+        },
+        {
+            "id": 14,
+            "nome": "URUCÂNIA",
+            "uriImagem": "cidades/urucania/urucania.jpg",
+            "descricao": "A história de Urucânia se confunde com as manifestações religiosas na região, que têm origem na devoção a Nossa Senhora das Graças. A cidade da Zona da Mata faz parte do Circuito Montanhas e Fé. Seu povoamento data de meados do século XIX, quando seus primeiros habitantes instalaram-se no local. Por volta de 1869, Francisca Inácia da Incarnação, senhora fervorosamente católica, amiga dos escravos e protetora dos colonos, mandou erguer uma capela e uma casa para abrigar o sacerdote em terreno por ela doado."
         }
     ],
+    
     "lugares_credenciados": [
         {
-            "id": "1",
+            "id": 1,
+            "cidade": 1,
             "nome": "Restaurante Grillos",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/1.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/fried_rice_ramen_food_asian_food_dish_bowl_icon_208009.png",
+            "image": "cidades/abrecampo/estabelecimentos/estabelecimento-1.jpg",
+            "icon": "icones/restaurante.png",
             "endereco": "Rua Padre Antônio Pinto, 07 - Centro",
             "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "4"
-              ]
+            "QRcode": ""
         },
         {
-            "id": "2",
-            "nome": "Cafeteria da Grazi",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/boba_drink_bubble_tea_tea_cup_glass_icon_208001.png",
-            "endereco": "Rua Dona Francisca, 81 - Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "4"
-              ]
+            "id": 2,
+            "cidade": 1,
+            "nome": "Restaurante da Dona Maria",
+            "image": "cidades/abrecampo/estabelecimentos/estabelecimento-2.jpg",
+            "icon": "icones/restaurante.png",
+            "endereco": "Rua João Molevade, 07 - Primavera",
+            "horario_funcionamento": "Aberto de 08 às 18 horas",
+            "QRcode": ""
         },
         {
-            "id": "3",
-            "nome": "Pizzaria Italiana",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/pizza_food_fast_food_italian_food_icon_208020.png",
-            "endereco": "Rua Pérola, 34 - Centro",
+            "id": 3,
+            "cidade": 2,
+            "nome": "Restaurante Grillos",
+            "image": "cidades/abrecampo/estabelecimentos/estabelecimento-1.jpg",
+            "icon": "icones/restaurante.png",
+            "endereco": "Rua Padre Antônio Pinto, 07 - Centro",
             "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "Rua Dona Francisca, 72 – Centro",
-            "cidade": [
-                "7"
-              ]
+            "QRcode": ""
         },
         {
-            "id": "4",
-            "nome": "Bar Dois Irmãos",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/4.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/orange_juice_drink_glass_fruit_icon_208029.png",
-            "endereco": "Rua Professor Manoel Rufino, 47 - Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "7"
-              ]
-        },
-        {
-            "id": "5",
-            "nome": "Casarão Beer",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/nachos_mexican_food_food_appetizer_snack_icon_208010.png",
-            "endereco": "Praça Senador Antônio Martins, s/n – Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "7"
-              ]
-        },
-        {
-            "id": "6",
-            "nome": "K'banas Lanches Bar",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/sandwich_bread_bikini_snack_food_icon_208027.png",
-            "endereco": "Praça Senador Antônio Martins, s/n – Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "2"
-              ]
-        },
-        {
-            "id": "7",
-            "nome": "Sorveteria Iluda",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/ice_cream_sweet_food_summer_icon_208021.png",
-            "endereco": "Avenida Santana, 12 - Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "2"
-              ]
-        },
-        {
-            "id": "8",
-            "nome": "Moicana - Ponto do Pastel",
-            "image": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/8.svg",
-            "icon": "https://cdn.icon-icons.com/icons2/3277/PNG/512/soda_drink_sparkles_can_bottle_icon_208015.png",
-            "endereco": "Praça Tenente Mol, s/n – Centro",
-            "horario_funcionamento": "Aberto de 09 às 23 horas",
-            "QRcode": "",
-            "cidade": [
-                "2"
-              ]
+            "id": 4,
+            "cidade": 2,
+            "nome": "Restaurante da Dona Maria",
+            "image": "cidades/abrecampo/estabelecimentos/estabelecimento-2.jpg",
+            "icon": "icones/restaurante.png",
+            "endereco": "Rua João Molevade, 07 - Primavera",
+            "horario_funcionamento": "Aberto de 08 às 18 horas",
+            "QRcode": ""
         }
     ]
 }

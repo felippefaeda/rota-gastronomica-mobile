@@ -28,8 +28,10 @@ import { ButtonList } from "../components/ButtonList";
 import { useNavigation } from '@react-navigation/core';
 
 interface CidadesProps {
-    id: string;
+    id: number;
     nome: string;
+    uriImagem: string;
+    descricao: string;
 }
 
 export function ListaCidades() {
@@ -92,11 +94,12 @@ export function ListaCidades() {
                 <FlatList
                     data={cidades}
                     renderItem={({ item }) => (
-                        <ButtonList data={item}
-                        onPress={ () => handleCidadeSelect(item)}
+                        <ButtonList 
+                            data={item}
+                            onPress={ () => handleCidadeSelect(item)}
                         />
                     )}
-                    
+                    keyExtractor={item => String(item.id)}                    
                     showsVerticalScrollIndicator={false}
                 />
             </View>

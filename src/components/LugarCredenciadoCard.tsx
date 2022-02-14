@@ -9,20 +9,19 @@ import {
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 import icon from '../assets/icon.png';
-import lugarImagem from '../assets/lugar.png';
+import config from '../../config';
 
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
-import { SvgFromUri } from 'react-native-svg';
 
 interface LugaresCredenciadosProps extends RectButtonProps {
     data: {
-        id: string;
+        id: number;
+        cidade: number;
         nome: string;
         image: string;
         icon: string;
         endereco: string;
         horario_funcionamento: string;
-        cidade: string[];
     }
 }
 
@@ -33,13 +32,17 @@ export const LugarCredenciadoCard = ({ data, ...rest }: LugaresCredenciadosProps
             {...rest}
         >
             <Image
-                source={lugarImagem}
+                source={{
+                    uri: `${config.URL_IMAGE}${data.image}`
+                }}
                 style={styles.imagemLugar}
             />
 
             <View style={styles.infoLugar}>
                 <Image
-                    source={icon}
+                    source={{
+                        uri: `${config.URL_IMAGE}${data.icon}`
+                    }}
                     style={styles.icon}
                 />
 
