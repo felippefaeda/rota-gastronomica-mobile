@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 
 import { LinearGradient } from 'expo-linear-gradient';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRoute } from '@react-navigation/core';
 
 import logo from '../assets/logo.png';
@@ -21,7 +22,6 @@ import { LugarCredenciadoCard } from '../components/LugarCredenciadoCard';
 
 import api from "../services/api";
 import config from '../../config';
-import jsonServer from '../services/server.json';
 
 interface Params {
     cidade: {
@@ -50,16 +50,14 @@ export function InfoCidades() {
     const [lugares, setLugares] = useState<LugaresCredenciadosProps[]>([]);
 
     useEffect(() => {
-        LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
-    }, [])
-
-    useEffect(() => {
         async function fetchLugares() {
             if (config.SEARCH_TYPE == 'API') {
                 const { data } = await api.get('lugares_credenciados?_sort=name&_order=asc');
                 setLugares(data);
             } else {
-                setLugares(jsonServer.lugares_credenciados.filter(obj => { 
+                const strEstabelecimentos = await AsyncStorage.getItem('@rota-gastronomica:estabelecimentos');
+
+                setLugares((JSON.parse(strEstabelecimentos || '')).filter((obj: LugaresCredenciadosProps) => { 
                     if(obj.cidade == cidade.id){
                         return true;
                     } else {
@@ -70,7 +68,11 @@ export function InfoCidades() {
         }
 
         fetchLugares();
-    }, [])
+    }, []);
+
+    useEffect(() => {
+        LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
+    }, []);
 
     return (   
         <View style={styles.container}>

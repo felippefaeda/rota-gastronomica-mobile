@@ -11,6 +11,7 @@ import {
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import logo from '../assets/logo.png';
 import imagemUm from '../assets/imagem1.png'
@@ -21,7 +22,6 @@ import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 import api from "../services/api";
 import config from '../../config';
-import jsonCidade from '../services/server.json';
 
 import { ButtonList } from "../components/ButtonList";
 
@@ -45,7 +45,8 @@ export function ListaCidades() {
                 const { data } = await api.get('cidades?_sort=name&_order=asc');
                 setCidades(data);
             } else {
-                setCidades(jsonCidade.cidades);
+                const strCidades = await AsyncStorage.getItem('@rota-gastronomica:cidades');
+                setCidades(JSON.parse(strCidades || ''));
             }
         }
 

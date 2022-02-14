@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     StyleSheet,
     Text,
@@ -22,6 +22,26 @@ import imagemPrincipal from '../assets/imagemPrincipal.png';
 import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import config from '../../config';
+
+interface CidadesProps {
+    id: number;
+    nome: string;
+    uriImagem: string;
+    descricao: string;
+}
+
+interface EstabelecimentosProps {
+    id: number;
+    cidade: number;
+    nome: string;
+    image: string;
+    icon: string;
+    endereco: string;
+    horario_funcionamento: string;
+}
+
 export function PaginaInicial() {
 
     const navigation = useNavigation();
@@ -41,6 +61,22 @@ export function PaginaInicial() {
             ToastAndroid.show('Não foi possível realizar o redirecionamento', ToastAndroid.SHORT)
         }
     }
+
+    useEffect(() => {
+        async function getJsonServer() {
+            try {
+                let response = await fetch(`${config.URL_IMAGE}server.json`);
+                let json = await response.json();
+
+                await AsyncStorage.setItem('@rota-gastronomica:cidades', JSON.stringify(json.cidades));
+                await AsyncStorage.setItem('@rota-gastronomica:estabelecimentos', JSON.stringify(json.lugares_credenciados));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        getJsonServer();
+    }, []);
 
     return (
         <SafeAreaView style={styles.container} >
@@ -66,7 +102,7 @@ export function PaginaInicial() {
                         Montanhas e Fé permite a interação{'\n'}
                         e participação com os produtores locais.{'\n'}
                         Uma experiência completa e histórica sobre {'\n'}
-                        a gastronomia do interior de Minas Gerais.                       
+                        a gastronomia do interior de Minas Gerais.
                     </Text>
 
                     <View style={styles.buttons}>
@@ -79,7 +115,7 @@ export function PaginaInicial() {
                             title="HISTÓRICO DE PONTOS"
                             onPress={handleStartPontos}
                         />
-                    </View>                  
+                    </View>
 
                     <View style={styles.icons}>
                         <Icon
