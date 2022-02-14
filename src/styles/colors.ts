@@ -17,5 +17,6 @@ export default {
 
   red: '#E83F5B',
   brown: '#a74034',
-  red_dark: '#D93336'
+  red_dark: '#D93336',
+  red_font: '#A8141B'
 };
