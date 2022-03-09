@@ -75,7 +75,9 @@ export function PaginaInicial() {
             }
         }
 
-        getJsonServer();
+        if (config.SEARCH_TYPE == 'LOCAL'){
+            getJsonServer();
+        }        
     }, []);
 
     return (
