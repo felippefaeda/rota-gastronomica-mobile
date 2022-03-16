@@ -5,6 +5,8 @@ import { PaginaInicial } from '../pages/PaginaInicial';
 import { ListaCidades } from '../pages/ListaCidades';
 import { InfoCidades } from '../pages/InfoCidades';
 import { HistoricoPontos } from '../pages/HistoricoPontos';
+import { LerQRCode } from '../pages/LerQRCode';
+import { ConfirmarLeitura } from '../pages/ConfirmarLeitura';
 
 import colors from '../styles/colors';
 
@@ -38,6 +40,16 @@ const AppRoutes: React.FC = () => (
         <stackRoutes.Screen
             name="HistoricoPontos"
             component={HistoricoPontos}
+        />
+
+        <stackRoutes.Screen
+            name="LerQRCode"
+            component={LerQRCode}
+        />  
+
+        <stackRoutes.Screen
+            name="ConfirmarLeitura"
+            component={ConfirmarLeitura}
         />
 
     </stackRoutes.Navigator>

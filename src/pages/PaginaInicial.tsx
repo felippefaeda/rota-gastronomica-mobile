@@ -44,11 +44,12 @@ interface EstabelecimentosProps {
 
 export function PaginaInicial() {
 
-    const navigation = useNavigation();
-
+    const navigation = useNavigation();  
+    
     function handleStartCidades() {
         navigation.navigate('ListaCidades');
     }
+
     function handleStartPontos() {
         navigation.navigate('HistoricoPontos');
     }
