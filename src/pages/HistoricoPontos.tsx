@@ -24,6 +24,9 @@ export function HistoricoPontos() {
     function handleLerQRCode() {
         navigation.navigate('LerQRCode');
     }
+    function handleRegras() {
+        navigation.navigate('Regras');
+    }
     
     return (
         <SafeAreaView style={styles.container}>
@@ -57,7 +60,8 @@ export function HistoricoPontos() {
                 title="RESGATAR BRINDE" 
             />
             <ButtonPoints
-                title="REGRAS"  
+                title="REGRAS" 
+                onPress={handleRegras} 
             />
         </SafeAreaView>
     );
